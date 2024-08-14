@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-de-fundo: #D5E1EF;
+    --branco-container: #FFFFFF;
+    --azul-principal: #1F314F;
+    --cinza-secundario: #68778D;
+    --fonte-principal: 'Outfit';
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    text-align: center;
+    align-items: center;
+    font-family: var(--fonte-principal);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__conteudo {
+    background-color: var(--branco-container);
+    width: 288px;
+    border-radius: 16px;
+    padding: 16px 16px 40px 16px;
+    text-align: center;
+}
+
+.conteudo__titulo {
+    color: var(--azul-principal);
+    margin: 16px 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.conteudo__descricao {
+    color: var(--cinza-secundario);
+    font-size: 15px;
+}
+
+.conteudo__qrcode {
+    width: 288px;
+}
